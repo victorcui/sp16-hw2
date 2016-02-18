@@ -1,3 +1,11 @@
 class Foobar
-  # ENTER CODE FOR Q2 HERE
+	def initialize(input)
+		@name = input
+	end
+
+	def bar(stringinput, hashinput)
+		return "#{stringinput}#{ @name }#{hashinput[:sat]}"
+
+	end
+
 end
